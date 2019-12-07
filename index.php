@@ -6,15 +6,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-	<form class="navbar">
+	<div class="navbar">
 		<h1>PinkRhino / LOGIN PAGE</h1>
-	</form>
-	<form class="login-form">
+	</div>
+	<div class="login-form">
 		<form method="POST" action="login.inc.php">
-			<input type="text" name="email" placeholder="Email">
-			<input type="text" name="pass"	placeholder="Password">
-			<input type="submit" value="Login">
-		</form>
-	</form>
+			<h1>Login</h1>
+			<input class="text" type="text" name="email" placeholder="Email"><br><br>
+			<input class="text" type="text" name="pass"	placeholder="Password"><br><br>
+			<input class="button" type="submit" value="Login"><br><br><br><br>
+			</form>
+		</div>
+	
 </body>
 </html>
