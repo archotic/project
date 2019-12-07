@@ -14,9 +14,10 @@
 			<h1>Login</h1>
 			<input class="text" type="text" name="email" placeholder="Email"><br><br>
 			<input class="text" type="text" name="pass"	placeholder="Password"><br><br>
-			<input class="button" type="submit" value="Login"><br><br><br><br>
+			<input class="button" type="submit" value="Login"><br>
+			<p>If you don't have an account ,</p><a href="signup.php">make one</a>
+			<br><br><br>
 			</form>
 		</div>
-	
 </body>
 </html>
